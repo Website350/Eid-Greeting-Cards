@@ -34,7 +34,6 @@
       margin: 0;
       padding-top: 88px; /* Match the height of the fixed header */
       font-family: 'NotoKufiArabic', sans-serif;
-      background-image: linear-gradient(90deg, #4A90E2 1%, #007BFF 100%);
       background-size: cover;
       display: flex;
       flex-direction: column; /* Allow stacking of elements */
@@ -43,6 +42,7 @@
       align-items: center;
       min-height: 100vh;
       overflow: hidden; /* Prevent scrolling during animation */
+      background-image: linear-gradient(90deg, #4A90E2 1%, #007BFF 100%);
     }
 
     /* Header Styling */
@@ -113,9 +113,9 @@
 }
 
 .menu-button:hover {
-  background-image: linear-gradient(90deg, #4A90E2 1%, #007BFF 100%); /* Gradient background on hover */
   color: white; /* Keep text white */
   transform: translateY(-2px); /* Slight upward movement on hover */
+  background-image: linear-gradient(90deg, #4A90E2 1%, #007BFF 100%); /* Gradient background on hover */
 }
 
 /* Dropdown Menu Styling */
@@ -142,8 +142,8 @@
 
 .dropdown-menu a:hover {
   background: #333;
-  color: #007BFF; /* Gold color for hover */
   transition: all 0.3s ease;
+  color: #007BFF; /* Gold color for hover */
 }
 
 /* Responsive Design for Mobile */
@@ -197,7 +197,6 @@
 
 /* Gradient Text Styles */
 .banner-title {
-    background-image: linear-gradient(90deg, #4A90E2 1%, #007BFF 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -207,6 +206,7 @@
     line-height: 1.2; /* Explicitly set a line height to avoid extra spacing */
   letter-spacing: 0; /* Reset letter spacing */
   word-spacing: 0; /* Reset word spacing */
+  background-image: linear-gradient(90deg, #4A90E2 1%, #007BFF 100%);
 }
 
 .banner-description {
@@ -231,8 +231,8 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
     color: transparent;
-    border-bottom: 2px solid #007BFF; /* Use gradient color for border */
     padding-bottom: 8px;
+    border-bottom: 2px solid #007BFF; /* Use gradient color for border */
 }
 
 /* Mobile Responsive */
@@ -298,17 +298,17 @@
   font-family: 'NotoKufiArabic', sans-serif; /* Use Noto Kufi Arabic font */
   font-size: 1.1rem;
   font-weight: 600;
-  background-color: #007BFF;
   color: white;
   border: none;
   border-radius: 4px;
+  background-color: #007BFF;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .start-now-button:hover {
-  background-color: #007BFF;
   transform: translateY(-2px);
+  background-color: #007BFF;
 }
 
 /* Infographic Section */
@@ -501,8 +501,8 @@ button {
   padding: 10px 20px;
   font-family: 'NotoKufiArabic-VariableFont_wght.ttf', sans-serif;
   font-size: 1.1rem;
-  font-weight: 600;
   background-color: #007BFF;
+  font-weight: 600;
   color: white;
   border: none;
   border-radius: 4px;
@@ -511,8 +511,8 @@ button {
 }
 
 button:hover {
-  background-color: #007BFF;
   transform: translateY(-2px);
+  background-color: #007BFF;
 }
 
 /* Details Section */
@@ -586,13 +586,13 @@ button:hover {
 
 .design-heading {
   font-size: 1.3rem; /* Adjust font size */
-  color: #007BFF; /* Purple color */
   line-height: 1.2; /* Prevent extra spacing */
   letter-spacing: 0; /* Reset letter spacing */
+  background-image: linear-gradient(90deg, #4A90E2 1%, #007BFF 100%); /* Gradient */
+  color: #007BFF; /* Purple color */
   word-spacing: 0; /* Reset word spacing */
   font-weight: bold; /* Bold heading */
   margin-bottom: 10px; /* Spacing below the heading */
-  background-image: linear-gradient(90deg, #4A90E2 1%, #007BFF 100%); /* Gradient */
   -webkit-background-clip: text; /* Clips the background to the text */
   -webkit-text-fill-color: transparent; /* Makes the text fill transparent to show the gradient */
 }
@@ -600,9 +600,9 @@ button:hover {
 .personal-heading {
   font-size: 1.3rem; /* Adjust font size */
   font-weight: bold; /* Bold heading */
+  background-image: linear-gradient(90deg, #4A90E2 1%, #007BFF 100%); /* Gradient colors */
   margin-bottom: 10px; /* Space below the heading */
   text-align: right; /* Align Arabic text to the right */
-  background-image: linear-gradient(90deg, #4A90E2 1%, #007BFF 100%); /* Gradient colors */
   -webkit-background-clip: text; /* Clips the background to the text */
   -webkit-text-fill-color: transparent; /* Makes the text transparent to show the gradient */
   background-clip: text; /* For non-WebKit browsers */
@@ -699,8 +699,11 @@ input[type="text"] {
 }
 
 input[type="text"]:focus {
-  border-color: #007BFF; /* Purple border on focus */
-  outline: none; /* Remove default outline */
+    
+   border-color: #007BFF; /* Purple border on focus */
+
+   outline: none; /* Remove default outline */
+
 }
 
 /* Placeholder Styling */
@@ -728,17 +731,17 @@ input[dir="rtl"] {
       font-family: 'NotoKufiArabic-VariableFont_wght.ttf', sans-serif;
       font-size: 1.1rem;
       font-weight: 600;
-      background-color: #007BFF;
       color: white;
       border: none;
       border-radius: 4px;
+      background-color: #007BFF;
       cursor: pointer;
       transition: background-color 0.3s ease, transform 0.2s ease;
     }
 
     button:hover {
-      background-color: #007BFF;
       transform: translateY(-2px);
+      background-color: #007BFF;
     }
     .custom-button {
   display: block;
@@ -747,17 +750,19 @@ input[dir="rtl"] {
   font-family: 'NotoKufiArabic', sans-serif; /* Use Noto Kufi Arabic font */
   font-size: 1.1rem;
   font-weight: 600;
-  background-image: linear-gradient(90deg, #4A90E2 1%, #007BFF 100%);
   color: white;
   border: none;
   border-radius: 4px;
+  background-image: linear-gradient(90deg, #4A90E2 1%, #007BFF 100%);
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .custom-button:hover {
-    background-image: linear-gradient(90deg, #4A90E2 1%, #007BFF 5%);
   transform: translateY(-2px);
+
+  background-image: linear-gradient(90deg, #4A90E2 1%, #007BFF 5%);
+
 }
 
     /* Canvas Styling */
@@ -777,11 +782,11 @@ input[dir="rtl"] {
   left: 0; /* Start at the very left */
   width: 100%; /* Full width of the viewport */
   height: 100%; /* Full height of the viewport */
-  background-image: linear-gradient(90deg, #4A90E2 1%, #007BFF 100%); /* Dark background for the overlay */
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 1500; /* Higher than the header's z-index */
+  background-image: linear-gradient(90deg, #4A90E2 1%, #007BFF 100%); /* Dark background for the overlay */
   animation: slideOutRight 0.3s ease-in-out 0.8s forwards; /* Slide out to the right */
 }
 
@@ -790,10 +795,11 @@ input[dir="rtl"] {
   width: 90px;
   height: 90px;
   border: 3px solid #ffffff; /* Transparent border */
-  border-top: 3px solid #007BFF; /* Visible border for spinning effect */
   border-radius: 50%;
   animation: spin 0.9s ease-in-out forwards; /* 0.9s duration, ease-in-out timing, and stops after one spin */
   position: relative;
+  border-top: 3px solid #007BFF; /* Visible border for spinning effect */
+
 }
 
 /* Spinner Logo */
@@ -1022,7 +1028,7 @@ footer {
       </button>
       <!-- Dropdown Menu -->
       <div id="dropdownMenu" class="dropdown-menu">
-        <a href="#footer" class="scroll-to" data-target="footer">نبذة عني</a>
+        <a href="#footer" class="scroll-to" data-target="footer">عن الموقع</a>
         <a href="#footer" class="scroll-to" data-target="footer">تواصل معي</a>
         <a href="#custom-greeting-cards" class="scroll-to" data-target="custom-greeting-cards">ابدأ التصميم</a>
       </div>
@@ -1140,7 +1146,7 @@ document.addEventListener('click', (e) => {
       <!-- About Me Section -->
       <div class="footer-sections">
         <div class="footer-section">
-          <h3 class="footer-title">نبذة عني</h3>
+          <h3 class="footer-title">عن الموقع</h3>
           <p style="color: #D0D0D0; font-size: 0.95rem;">
             أنا متخصص في تصميم تصميم المواقع والتسويق الرقمي، شغوف بـ تطوير البرمجيات والأعمال الإبداعية. 
             أطلقت هذا المشروع لتسهيل تصميم بطاقات التهنئة المخصصة بمناسبة عيد الفطر، ومشاركة شغفي بالإبداع مع الآخرين.
@@ -1324,6 +1330,5 @@ document.addEventListener('click', (e) => {
       });
     });
   </script>
-
 </body>
 </html>
